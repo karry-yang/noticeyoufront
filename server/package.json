@@ -1,0 +1,36 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "cross-env NODE_ENV=production node index.js",
+        "dev": "cross-env NODE_ENV=development node index.js",
+        "test": "cross-env NODE_ENV=test node index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "ali-oss": "^6.21.0",
+        "bcrypt": "^5.1.1",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "ioredis": "^5.4.1",
+        "jsonwebtoken": "^9.0.2",
+        "kafka-node": "^5.0.0",
+        "kafkajs": "^2.2.4",
+        "mongodb": "^6.9.0",
+        "multer": "^1.4.5-lts.1",
+        "mysql2": "^3.10.2",
+        "nodemailer": "^6.9.14",
+        "snowflake-id": "^1.1.0",
+        "ws": "^8.18.0"
+    },
+    "devDependencies": {
+        "@babel/plugin-proposal-optional-chaining": "^7.21.0",
+        "cross-env": "^7.0.3"
+    }
+}
